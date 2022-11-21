@@ -12,7 +12,7 @@ const AboutUs = () => (
         About <br className="sm:block hidden" />
         Us
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <p className={`${styles.paragraph} max-w-[510px] mt-5`}>
         There are many variations of passages of Lorem Ipsum available, but the
         majority have suffered alteration in some form, by injected humour, or
         randomised words which don't look even slightly believable.

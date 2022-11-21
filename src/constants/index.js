@@ -136,7 +136,7 @@ export const stats = [
 ];
 
 export const footerLinks = [
-  {
+  /*{
     title: "Useful Links",
     links: [
       {
@@ -198,7 +198,7 @@ export const footerLinks = [
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
-  },
+  },*/
 ];
 
 export const socialMedia = [
