@@ -1,8 +1,9 @@
 {
   "name": "cool_meqs",
-  "private":false,
+  "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://memotonui.github.io/CoolMeqsWebsite/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
