@@ -30,7 +30,7 @@ const App = () => {
         </div>
       </div>
       <div
-        className={`bg-discount-gradient ${styles.paddingX} ${styles.flexStart}`}
+        className={`bg-discount-gradient m-2 ${styles.paddingX} ${styles.flexStart}`}
       >
         <div className={`${styles.boxWidth}`}>
           <Stats /> <AboutUs /> <Business /> <Services /> <CardDeal />
