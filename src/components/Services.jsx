@@ -26,7 +26,7 @@ const Services = () => {
   return (
     <div >
       <div className={layout.sectionInfo}>
-        <h2 className={`${styles.heading2} mx-14`}>
+        <h2 className={`${styles.heading2} mx-2`}>
           Services
           <br className="sm:block hidden" />
         </h2>

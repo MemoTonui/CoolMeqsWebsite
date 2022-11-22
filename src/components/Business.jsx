@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Business = () => {
   return (
-    <section id="about_us" className={`${layout.section} mx-14`}>
+    <section id="about_us" className={`${layout.section} mx-2`}>
       <div className={`${layout.sectionInfo}`}>
         <h2 className={`${styles.heading2}`}>
           Vision
