@@ -26,13 +26,15 @@ import people03 from "./people03.png";
 import group from "./group.png";
 import group2 from "./group2.png";
 import group4 from "./group4.png";
+import group5 from "./group5.jpeg";
+import group6 from "./group6.jpeg";
 import hero from "./hero.png";
 import camera from "./camera.svg";
 import wind from "./wind.svg";
 import droplet from "./droplet.svg";
 import zap from "./zap.svg";
 import aperture from "./aperture.svg";
-import logo2 from "./logo2.jpeg"
+import logo2 from "./logo2.jpeg";
 
 export {
   airbnb,
@@ -69,5 +71,7 @@ export {
   zap,
   aperture,
   logo2,
-  group4
+  group4,
+  group5,
+  group6
 };

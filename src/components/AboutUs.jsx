@@ -1,4 +1,4 @@
-import { card, group, group4 } from "../assets";
+import { card, group, group5 } from "../assets";
 import styles, { layout } from "../style";
 import Button from "./Button";
 
@@ -18,7 +18,7 @@ const AboutUs = () => (
       <Button styles="mt-10" />
     </div>
     <div className={layout.sectionImg}>
-      <img src={group4} alt="" className="w-[100%] h-[100%]" />
+      <img src={group5} alt="" className="w-[100%] h-[100%]" />
     </div>
   </section>
 );
