@@ -4,7 +4,7 @@ import styles from "../style";
 const Stats = () => {
   return (
     <section
-      className={`${styles.flexCenter} text-center mx-14 flex-row flex-wrap sm:mb-20 scroll-mb-6`}
+      className={`${styles.flexCenter} text-center flex-row flex-wrap sm:mb-20 scroll-mb-6`}
     >
       {stats.map((stat) => (
         <div
@@ -14,7 +14,7 @@ const Stats = () => {
           <h4 className="font-poppins font-semibold xs:text-[40px] text-[30px] xs:leading-[53px] leading-[43px] text-white">
             {stat.value}
           </h4>
-          <p className="font-poppins font-normal xs:text-[20px] text-[30px] xs:leading-[26px] leading-[21px] text-gradient uppercase ml-3">
+          <p className="font-poppins font-normal xs:text-[20px] p-3 text-[30px] xs:leading-[26px] leading-[21px] text-gradient uppercase ml-3">
             {stat.title}
           </p>
         </div>

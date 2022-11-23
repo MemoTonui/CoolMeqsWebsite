@@ -5,9 +5,9 @@ import Button from "./Button";
 const AboutUs = () => (
   <section id="about_us" className={layout.section}>
     <div className={layout.sectionImg}>
-      <img src={group4} alt="" className="w-[100%] h-[100%]" />
+      <img src={group4} alt="" className="w-[100%] h-[100%] mr-3" />
     </div>
-    <div className={`${layout.sectionInfo} mx-10`}>
+    <div className={`${layout.sectionInfo} mx-2`}>
       <h2 className={styles.heading2}>
         About <br className="sm:block hidden" />
         Us

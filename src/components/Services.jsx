@@ -12,7 +12,7 @@ const ServiceCard = ({ icon, title, content, index }) => (
     >
       <img src={icon} alt="icon" className="w-[50%] h-[50%] object-contain" />
     </div>
-    <div className="flex-1 flex flex-col ml-3">
+    <div className="flex-1 flex flex-col">
       <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1">
         {title}
       </h4>
