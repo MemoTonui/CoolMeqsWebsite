@@ -35,6 +35,7 @@ import droplet from "./droplet.svg";
 import zap from "./zap.svg";
 import aperture from "./aperture.svg";
 import logo2 from "./logo2.jpeg";
+import aboutBg from "./floating-cogs.svg";
 
 export {
   airbnb,
@@ -73,5 +74,6 @@ export {
   logo2,
   group4,
   group5,
-  group6
+  group6,
+  aboutBg,
 };

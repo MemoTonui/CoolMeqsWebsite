@@ -17,15 +17,30 @@
 * {
   scroll-behavior: smooth;
 }
-
+.about {
+  background: #d5e5fe;
+  background-image: url(./assets/floating-cogs.svg);
+}
+.pulsating-card:hover {
+  transform: scale(1.05);
+  transition: 0.3s cubic-bezier(0.25, 0.1, 0, 2.05);
+}
+.highlighted-text {
+  font-size: 120px;
+  color: #b5bac042;
+}
+.about-us-card {
+  color: #7b94b3cc;
+  font-weight: bold;
+}
 .text-gradient {
   background-image: linear-gradient(
     to right,
     #314755 0%,
     #26a0da 51%,
-    #52cffe 71.54%,
+    #d5e5fe 71.54%,
     #4c6871 100%,
-    #314755 100%
+    #2a4365 100%
   );
 
   -webkit-background-clip: text;
@@ -35,32 +50,15 @@
 }
 
 .bg-blue-gradient {
-  background: linear-gradient(
-    157.81deg,
-    #314755 0%,
-    #26a0da 51%,
-    #52cffe 71.54%,
-    #4c6871 100%,
-    #314755 100%
-  );
+  background: #2a4365;
 }
 
 .bg-black-gradient {
-  background: linear-gradient(
-    144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
-  );
+  background: #2a4365;
 }
 
 .bg-black-gradient-2 {
-  background: linear-gradient(
-    -168.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
-  );
+  background: #2a4365;
 }
 
 .bg-gray-gradient {
@@ -72,7 +70,7 @@
 }
 
 .bg-discount-gradient {
-  background: linear-gradient(125.17deg, #11101d 100%, #272727 0%);
+  background: ;
 }
 
 .box-shadow {
@@ -107,7 +105,6 @@
 }
 
 .feature-card:hover {
-  background: var(--black-gradient);
   box-shadow: var(--card-shadow);
 }
 
@@ -120,7 +117,7 @@
 }
 
 .feedback-card:hover {
-  background: var(--black-gradient);
+  box-shadow: var(--card-shadow);
 }
 
 .blue__gradient {

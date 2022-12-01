@@ -41,48 +41,47 @@ export const navLinks = [
 
 export const services1 = [
   {
-    id: "service-1",
+    id: "01",
     icon: wind,
     title: "Heat , Ventilation and Air Conditioning(HVAC)",
     content: "HVAC design, installations and after sales service",
   },
   {
-    id: "service-7",
+    id: "02",
     icon: shield,
     title: "Security Cameras",
     content: "Security cameras installations and automation",
   },
   {
-    id: "service-5",
+    id: "03",
     icon: aperture,
     title: "Laundromat",
     content: "Laundromat design installation and maintenance",
   },
-
+];
+export const services2 = [
   {
-    id: "service-4",
+    id: "04",
     icon: star,
     title: "Auditing",
     content: "Auditing services for mechanical installations",
   },
-];
-export const services2 = [
   {
-    id: "service-6",
+    id: "05",
     icon: zap,
     title: "Electrical Supplies and installation",
     content:
       "A balance transfer credit card can save you a lot of money in interest charges.",
   },
   {
-    id: "service-2",
+    id: "06",
     icon: droplet,
     title: "Plumbing Services",
     content:
       "We take proactive steps make sure your information and transactions are secure.",
   },
   {
-    id: "service-3",
+    id: "07",
     icon: send,
     title: "Consulting Services",
     content:

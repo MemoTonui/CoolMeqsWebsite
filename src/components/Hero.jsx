@@ -14,25 +14,25 @@ const Hero = () => {
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">Your</span> Doorstep {" "}
-            <span className="text-white">Service</span> Partner
+            <span className="text-slate-900">Your</span> Doorstep{" "}
+            <span className="text-slate-900">Service</span> Partner
           </p>
         </div>
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[68px] text-[48px] text-white ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[68px] text-[48px] text-slate-900 ss:leading-[100.8px] leading-[75px]">
             <span className="text-gradient">COOLMEQS SERVICES</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
           </div>
         </div>
-        <h1 className="font-poppins font-semibold ss:text-[64px] text-[48px] text-white ss:leading-[100.8px] leading-[75px] w-full">
+        <h1 className="font-poppins font-semibold ss:text-[64px] text-[48px] text-slate-900 ss:leading-[100.8px] leading-[75px] w-full">
           AND SUPPLIES LIMITED.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           <br className="sm:block hidden" />
-          We Offer Air Conditioning, Mechanical Ventilation, Electrical Services
-          and Supplies.
+          Coolmeqs Services and Supplies Limited provides a whole Round MEP
+          solutions to the built Environment.
         </p>
       </div>
 

@@ -29,7 +29,7 @@ const ContactForm = () => {
       "
       >
         <div className={`${styles.heading2} mb-3 pt-0`}>
-          <h3 className=" text-white font-poppins">Contact Us</h3>
+          <h3 className=" text-slate-900 font-poppins">Contact Us</h3>
         </div>
         <p className={`${styles.paragraph} max-w-[470px] mt-2`}>
           Incase of any questions or enquiries, reach out to us using the form
