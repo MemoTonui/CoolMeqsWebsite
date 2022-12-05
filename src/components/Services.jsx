@@ -7,9 +7,9 @@ const ServiceCard = ({ id, title, content, index }) => (
       index !== services1.length - 1 ? "mb-1" : "mb-0"
     } feature-card`}
   >
-    <div className="flex-1 flex flex-col  ">
+    <div className="flex-1 flex flex-col ml-3">
       <div className="p-8 bg-primary-darker rounded mb-4 pulsating-card relative mx-4 flex flex-row tracking-tighter cursor-pointer items-center  text-slate-800">
-        <p className="highlighted-text absolute pl-12  left-0">{id}</p>
+        <p className="highlighted-text flex absolute pl-12  left-0">{id}</p>
         <p className="font-semibold text-xl font-poppins text-left flex-1 text-white">
           {title}
         </p>
