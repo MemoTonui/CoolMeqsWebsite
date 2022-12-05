@@ -13,12 +13,13 @@ import {
   Stats,
   Testimonials,
 } from "./components";
+import CardComponent from "./components/CardComponent";
 import Services from "./components/Services";
 import styles from "./style";
 
 const App = () => {
   return (
-    <div className="bg-discount-gradient w-full overflow-hidden">
+    <div className="w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
@@ -29,15 +30,15 @@ const App = () => {
           <Hero />
         </div>
       </div>
-      <div
-        className={`bg-discount-gradient m-2 ${styles.paddingX} ${styles.flexStart}`}
-      >
+      <div className={` m-2 ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Stats /> <AboutUs /> <Business /> <CardDeal />
+          <Stats /> <AboutUs /> <CardDeal />
+          <CardComponent />
           <Testimonials />
-          <Clients /> <CTA /> <ContactForm /> <Footer />
+          <Clients /> <CTA /> <ContactForm />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

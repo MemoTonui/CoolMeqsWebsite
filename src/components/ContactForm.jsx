@@ -20,23 +20,20 @@ const ContactForm = () => {
   }
 
   return (
-    <section
-      id="contact_us"
-      className={` ${styles.paddingY} `}
-    >
+    <section id="contact_us" className={` ${styles.paddingY} `}>
       <div
         className="flex flex-col justify-center
       "
       >
         <div className={`${styles.heading2} mb-3 pt-0`}>
-          <h3 className=" text-slate-900 font-poppins">Contact Us</h3>
+          <h3 className=" text-slate-900 font-serif">Contact Us</h3>
         </div>
         <p className={`${styles.paragraph} max-w-[470px] mt-2`}>
           Incase of any questions or enquiries, reach out to us using the form
           below
         </p>
         <form
-          className={` bg-transparent shadow-md rounded px-8 pt-6 pb-8 mb-4 mt-5`}
+          className={` bg-transparent rounded px-8 pt-6 pb-8 mb-4 mt-5`}
           action={FORM_ENDPOINT}
           onSubmit={handleSubmit}
           method="POST"
@@ -47,7 +44,7 @@ const ContactForm = () => {
               type="text"
               placeholder="Your name"
               name="name"
-              className="px-3 py-3 placeholder-gray-400 text-dimWhite font-poppins relative  bg-dimBlue  rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+              className="px-3 py-3 placeholder-gray-400 font-inter relative   rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
               required
             />
           </div>
@@ -56,7 +53,7 @@ const ContactForm = () => {
               type="email"
               placeholder="Email Address"
               name="email"
-              className="px-3 py-3 placeholder-gray-400 text-dimWhite relative font-poppins bg-dimBlue  rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+              className="px-3 py-3 placeholder-gray-400 relative font-inter  rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
               required
             />
           </div>
@@ -64,7 +61,7 @@ const ContactForm = () => {
             <textarea
               placeholder="Your message"
               name="message"
-              className="px-3 py-3 placeholder-gray-400 text-dimWhite relative bg-dimBlue font-poppins rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+              className="px-3 py-3 placeholder-gray-400 relative  font-inter rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
               required
             />
           </div>

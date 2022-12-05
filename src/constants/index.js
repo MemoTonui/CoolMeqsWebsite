@@ -18,6 +18,9 @@ import {
   droplet,
   zap,
   aperture,
+  group5,
+  group6,
+  robot
 } from "../assets";
 
 export const navLinks = [
@@ -125,12 +128,39 @@ export const stats = [
   {
     id: "stats-2",
     title: "Served Customers",
-    value: "500+",
+    value: "500 +",
   },
   {
     id: "stats-3",
     title: "Monthly Active Users",
-    value: "1000+",
+    value: "1000 +",
+  },
+];
+
+export const products = [
+  {
+    title: "Product 1",
+    img: robot,
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+  },
+  {
+    title: "Product 2",
+    img: group6,
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+  },
+  {
+    title: "Product 3",
+    img: robot,
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+  },
+  {
+    title: "Product 4",
+    img: group5,
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
   },
 ];
 

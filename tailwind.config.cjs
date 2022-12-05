@@ -6,15 +6,17 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          darker: "#2a4365",
+          darker: "#002349",
         },
-        secondary: "#00f6ff",
+        secondary: "#957C3D",
         dimWhite: "rgba(255, 255, 255, 0.7)",
         dimBlue: "rgba(9, 151, 124, 0.1)",
       },
 
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
+        serif: ["DM Serif Text", "serif"],
+        inter: ["Inter", "sans-serif"],
       },
     },
     screens: {

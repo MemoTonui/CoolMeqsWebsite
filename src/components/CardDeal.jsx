@@ -3,7 +3,7 @@ import styles, { layout } from "../style";
 import Button from "./Button";
 
 const CardDeal = () => (
-  <section className={layout.section}>
+  <section className={` mt-10 ${layout.section}`}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         Get the Best Heat, <br className="sm:block hidden" />
