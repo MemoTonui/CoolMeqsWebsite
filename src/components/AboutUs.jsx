@@ -12,7 +12,7 @@ const AboutUs = () => (
       <hr className="mx-auto" />
       <div className="flex flex-col sm:flex-row">
         <p
-          className={`text-left font-inter leading-loose flex-1 font-light px-6 mt-12 text-primary-darker ${styles.paragraph}`}
+          className={`text-left font-inter leading-loose flex-1 font-light px-6 mt-12 max-w-[510px] text-primary-darker ${styles.paragraph}`}
         >
           Coolmeqs Services and Supplies Ltd,is one of the most sought after Air
           Treatment company in Kenya, It started its journey as an Hvac service
@@ -22,9 +22,7 @@ const AboutUs = () => (
           of 2022, Coolmeqs Services and supplies Limited with further
           diversification actively participated in the servicing of HVAC
           installations in private and public institutions majorly in Nairobi
-          and a few of them outside the capital city. 
-          
-          Currently, Coolmeqs
+          and a few of them outside the capital city. Currently, Coolmeqs
           Services and supplies Limited prides itself on being a one-stop-shop
           that can meet all the needs of our residential, commercial and
           industrial clients. We specialize in the service, scheduled
