@@ -1,45 +1,19 @@
 import React from "react";
-import {
-  AboutUs,
-  Billing,
-  Business,
-  CardDeal,
-  Clients,
-  ContactForm,
-  CTA,
-  Footer,
-  Hero,
-  Navbar,
-  Stats,
-  Testimonials,
-} from "./components";
-import CardComponent from "./components/CardComponent";
-import Services from "./components/Services";
-import styles from "./style";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Footer } from "./components";
+import AboutPage from "./pages/AboutPage";
+import Error from "./pages/Error";
+import HomePage from "./pages/HomePage";
 
 const App = () => {
   return (
-    <div className="w-full overflow-hidden">
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Navbar />
-        </div>
-      </div>
-      <div className={` ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Hero />
-        </div>
-      </div>
-      <div className={` m-2 ${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Stats /> <AboutUs /> <CardDeal />
-          <CardComponent />
-          <Testimonials />
-          <Clients /> <CTA /> <ContactForm />
-        </div>
-      </div>
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="*" element={<Error />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 export default App;

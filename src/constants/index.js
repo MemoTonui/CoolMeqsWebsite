@@ -20,16 +20,16 @@ import {
   aperture,
   group5,
   group6,
-  robot
+  robot,
 } from "../assets";
 
 export const navLinks = [
   {
-    id: "home",
+    id: "",
     title: "Home",
   },
   {
-    id: "about_us",
+    id: "about",
     title: "About Us",
   },
   {
@@ -161,6 +161,41 @@ export const products = [
     img: group5,
     content:
       "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+  },
+];
+
+export const team = [
+  {
+    id: "01",
+    src: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260",
+    name: "Oliver Aguilerra",
+    title: "Product Manager",
+    description:
+      "  Vincent Van Gogh’s most popular painting, The Starry Night.",
+  },
+  {
+    id: "02",
+    src: "https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260",
+    name: "Marta Clermont",
+    title: "Design Team Lead",
+    description:
+      "Amet I love liquorice jujubes pudding croissant I love pudding.",
+  },
+  {
+    id: "03",
+    src: "https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260",
+    name: "Alice Melbourne",
+    title: "Human Resources",
+    description:
+      " Lorizzle ipsum bling bling sit amizzle, consectetuer adipiscing elit.",
+  },
+  {
+    id: "04",
+    src: "https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260",
+    name: "John Doe",
+    title: "Good guy",
+    description:
+      " Bacon ipsum dolor sit amet salami jowl corned beef, andouille flank.",
   },
 ];
 

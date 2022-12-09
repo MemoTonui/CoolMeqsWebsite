@@ -25,12 +25,7 @@ const AboutUs = () => (
           and a few of them outside the capital city. Currently, Coolmeqs
           Services and supplies Limited prides itself on being a one-stop-shop
           that can meet all the needs of our residential, commercial and
-          industrial clients. We specialize in the service, scheduled
-          maintenance, and installation of air conditioning, heating, plumbing,
-          and fresh air systems. We provide quality workmanship and service at
-          competitive prices. You can always count on our technicians to uphold
-          the highest standards of efficiency, attention to detail, and strict
-          use of only quality parts and equipment.
+          industrial clients....
         </p>
       </div>
     </div>

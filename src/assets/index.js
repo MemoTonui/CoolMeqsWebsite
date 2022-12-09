@@ -36,6 +36,7 @@ import zap from "./zap.svg";
 import aperture from "./aperture.svg";
 import logo2 from "./logo2.jpeg";
 import aboutBg from "./floating-cogs.svg";
+import hvac1 from "./hvac1.jpg";
 
 export {
   airbnb,
@@ -76,4 +77,5 @@ export {
   group5,
   group6,
   aboutBg,
+  hvac1,
 };
