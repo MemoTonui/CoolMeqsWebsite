@@ -33,8 +33,8 @@ export const navLinks = [
     title: "About Us",
   },
   {
-    id: "portfolio",
-    title: "Portfolio",
+    id: "products",
+    title: "Our Products",
   },
   {
     id: "contact_us",
@@ -63,6 +63,55 @@ export const services1 = [
   },
 ];
 export const services2 = [
+  {
+    id: "04",
+    icon: star,
+    title: "Auditing",
+    content: "Auditing services for mechanical installations",
+  },
+  {
+    id: "05",
+    icon: zap,
+    title: "Electrical Supplies and installation",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+  {
+    id: "06",
+    icon: droplet,
+    title: "Plumbing Services",
+    content:
+      "We take proactive steps make sure your information and transactions are secure.",
+  },
+  {
+    id: "07",
+    icon: send,
+    title: "Consulting Services",
+    content:
+      "A balance transfer credit card can save you a lot of money in interest charges.",
+  },
+];
+
+export const services = [
+  {
+    id: "01",
+    icon: wind,
+    title: "Heat , Ventilation and Air Conditioning(HVAC)",
+    content: "HVAC design, installations and after sales service",
+  },
+  {
+    id: "02",
+    icon: shield,
+    title: "Security Cameras",
+    content: "Security cameras installations and automation",
+  },
+  {
+    id: "03",
+    icon: aperture,
+    title: "Laundromat",
+    content: "Laundromat design installation and maintenance",
+  },
+
   {
     id: "04",
     icon: star,
@@ -141,24 +190,28 @@ export const products = [
   {
     title: "Product 1",
     img: robot,
+    price: "400",
     content:
       "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
   },
   {
     title: "Product 2",
     img: group6,
+    price: "8600",
     content:
       "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
   },
   {
     title: "Product 3",
     img: robot,
+    price: "7300",
     content:
       "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
   },
   {
     title: "Product 4",
     img: group5,
+    price: "3100",
     content:
       "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
   },

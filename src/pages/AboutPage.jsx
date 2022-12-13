@@ -17,6 +17,7 @@ import AboutUsSection from "../components/AboutUsSection";
 import CardComponent from "../components/CardComponent";
 import Information from "../components/Information";
 import Services from "../components/Services";
+import ServicesSection from "../components/ServicesSection";
 import { Team } from "../components/Team";
 import styles from "../style";
 
@@ -35,7 +36,10 @@ const AboutPage = () => {
           </div>
           <div>
             <Information />
-            <Stats />
+            <div className="bg-slate-100 px-4">
+              <Stats />
+            </div>
+            <ServicesSection />
             <Team />
             <CTA />
             <ContactForm />

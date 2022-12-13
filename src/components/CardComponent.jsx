@@ -25,11 +25,14 @@ export default function CardComponent() {
               alt="image"
             />
             <div className="p-4">
-              <h4 className="text-lg font-semibold text-primary-darker">
-                {items.title}
-              </h4>
-              <p className="my-4 leading-normal text-sm">{items.content}</p>
-              <button className="px-4 py-2 text-sm text-white bg-primary-darker rounded shadow">
+              <div className="flex justify-between">
+                <h4 className="text-lg font-semibold text-primary-darker">
+                  {items.title}
+                </h4>
+                <h6 className="text-sm"> Ksh {items.price}</h6>
+              </div>
+              <p className="my-4 leading-normal font-inter text-sm">{items.content}</p>
+              <button className="px-4 py-2 text-sm font-serif text-white bg-primary-darker rounded shadow">
                 View More ..
               </button>
             </div>

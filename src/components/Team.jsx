@@ -1,4 +1,5 @@
 import { team } from "../constants";
+import styles from "../style";
 
 const TeamCard = ({ id, src, name, title, description, index }) => (
   <div
@@ -46,17 +47,18 @@ const TeamCard = ({ id, src, name, title, description, index }) => (
 export const Team = () => {
   return (
     <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="mx-auto mb-10 lg:max-w-xl sm:text-center">
-        <p
-          className={`inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-primary-darker uppercase rounded-full bg-teal-accent-400`}
-        >
+      <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
+        <h1 className={styles.heading2}>
           Know Our Team
-        </p>
-        <p className="text-base text-gray-700 md:text-lg font-serif">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium.
-        </p>
+        </h1>
+        <div className="w-full md:mt-0 mt-6">
+          <p className={`${styles.paragraph} text-left `}>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium.
+          </p>
+        </div>
       </div>
+
       <div className="grid gap-10 mx-auto lg:grid-cols-2 lg:max-w-screen-lg font-inter">
         {team.map((teamMember, index) => (
           <TeamCard key={teamMember.id} {...teamMember} index={index} />
