@@ -1,18 +1,13 @@
 import React from "react";
-import {
-  ContactForm,
-  CTA,
-  Footer,
-  Navbar,
-  Stats,
-} from "../components";
+import { ContactForm, CTA, Footer, Navbar, Stats } from "../components";
 import AboutUsSection from "../components/AboutUsSection";
 import Information from "../components/Information";
+import ProductComponent from "../components/Products";
 import ServicesSection from "../components/ServicesSection";
 import { Team } from "../components/Team";
 import styles from "../style";
 
-const AboutPage = () => {
+const Products = () => {
   return (
     <div className="w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -22,18 +17,8 @@ const AboutPage = () => {
       </div>
       <div className={` m-2 ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <div>
-            <AboutUsSection />
-          </div>
-          <div>
-            <Information />
-            <div className="bg-slate-100 px-4">
-              <Stats />
-            </div>
-            <ServicesSection />
-            <Team />
-            <CTA />
-            <ContactForm />
+          <div className="m-10 mb-28">
+            <ProductComponent />
           </div>
         </div>
       </div>
@@ -41,4 +26,5 @@ const AboutPage = () => {
     </div>
   );
 };
-export default AboutPage;
+
+export default Products;

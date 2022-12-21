@@ -20,7 +20,7 @@ const ServiceCard = ({ id, title, content, icon, index }) => (
 const ServicesSection = () => {
   return (
     <section className="bg-white dark:bg-gray-900">
-      <div class="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+      <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
         <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
           <h1 className={styles.heading2}>
             What Services Are We
@@ -33,7 +33,7 @@ const ServicesSection = () => {
             </p>
           </div>
         </div>
-        <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-12 my-4 md:space-y-0">
+        <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-12 my-4 md:space-y-0">
           {services.map((card) => (
             <ServiceCard key={card.id} {...card} />
           ))}

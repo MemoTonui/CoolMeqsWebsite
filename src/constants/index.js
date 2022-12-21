@@ -217,6 +217,98 @@ export const products = [
   },
 ];
 
+export const allProducts = [
+  {
+    id: 1,
+    title: "Product 1",
+    img: robot,
+    price: "400",
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+  },
+  {
+    id: 2,
+    title: "Product 2",
+    img: group6,
+    price: "8600",
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+  },
+  {
+    id: 3,
+    title: "Product 3",
+    img: robot,
+    price: "7300",
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+  },
+  {
+    id: 4,
+    title: "Product 4",
+    img: group5,
+    price: "3100",
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+  },
+  {
+    id: 5,
+    title: "Product 5",
+    img: robot,
+    price: "400",
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+  },
+  {
+    id: 6,
+    title: "Product 6",
+    img: group6,
+    price: "8600",
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+  },
+  {
+    id: 7,
+    title: "Product 7",
+    img: robot,
+    price: "7300",
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+  },
+  {
+    id: 8,
+    title: "Product 8",
+    img: group5,
+    price: "3100",
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+  },
+  {
+    id: 9,
+    title: "Product 9",
+    img: robot,
+    price: "400",
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+  },
+  {
+    id: 10,
+    title: "Product 10",
+    img: group6,
+    price: "8600",
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+  },
+
+  {
+    id: 11,
+    title: "Product 11",
+    img: group5,
+    price: "3100",
+    content:
+      "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour",
+  },
+];
+
 export const team = [
   {
     id: "01",
