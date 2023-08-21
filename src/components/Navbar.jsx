@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import Button from "./Button";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 import styles from "../style.js";
@@ -26,6 +26,7 @@ const Navbar = () => {
                 </Link>
               </li>
             ))}
+            <Button styles="ml-24" />
           </ul>
           <div className="sm:hidden flex flex-1 justify-end items-center">
             <img

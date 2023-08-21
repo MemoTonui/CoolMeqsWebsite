@@ -11,7 +11,7 @@ const ProductComponent = () => {
           <br className="sm:block hidden" />
         </h1>
       </div>
-      <div className="grid gap-10 lg:grid-cols-4 mt-10 font-inter">
+      <div className="grid gap-10 lg:grid-cols-4 mt-10 font-poppins">
         {allProducts.map((items, key) => (
           <div className="w-full rounded-lg shadow-md lg:max-w-sm" key={key}>
             <img
@@ -21,12 +21,12 @@ const ProductComponent = () => {
             />
             <div className="p-4">
               <div className="flex justify-between">
-                <h4 className="text-lg font-semibold font-serif text-primary-darker">
+                <h4 className="text-lg font-semibold font-poppins text-primary-darker">
                   {items.title}
                 </h4>
-                <h6 className="text-sm font-inter"> Ksh {items.price}</h6>
+                <h6 className="text-sm font-poppins"> Ksh {items.price}</h6>
               </div>
-              <p className="my-4 leading-normal font-inter text-sm">
+              <p className="my-4 leading-normal font-poppins text-sm">
                 {items.content}
               </p>
               <button

@@ -2,18 +2,18 @@ import { services, services1, stats } from "../constants";
 import styles from "../style";
 
 const ServiceCard = ({ id, title, content, icon, index }) => (
-  <div className="">
-    <div className="flex justify-center bg-slate-50 font-inter items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+  <div className="hover:shadow-lg p-3 rounded-md">
+    <div className="flex justify-center bg-slate-50 font-poppins items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
       <img
         src={icon}
         alt="service_icon"
         className="w-[42px] h-[27px] object-contain"
       />
     </div>
-    <h3 className="mb-2 text-xl font-semibold font-serif dark:text-white">
+    <h3 className="mb-2 text-xl text-slate-900 font-semibold font-serif dark:text-white">
       {title}
     </h3>
-    <p className="text-gray-500 dark:text-gray-400 font-inter">{content}</p>
+    <p className="text-slate-600 dark:text-gray-400 font-poppins">{content}</p>
   </div>
 );
 

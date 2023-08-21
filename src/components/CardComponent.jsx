@@ -31,8 +31,8 @@ export default function CardComponent() {
                 </h4>
                 <h6 className="text-sm"> Ksh {items.price}</h6>
               </div>
-              <p className="my-4 leading-normal font-inter text-sm">{items.content}</p>
-              <button className="px-4 py-2 text-sm font-serif text-white bg-primary-darker rounded shadow">
+              <p className="my-4 leading-normal font-poppins text-sm">{items.content}</p>
+              <button className="px-4 py-2 text-sm font-poppins text-white bg-primary-darker rounded shadow">
                 View More ..
               </button>
             </div>

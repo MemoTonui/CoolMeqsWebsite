@@ -44,7 +44,7 @@ const ContactForm = () => {
               type="text"
               placeholder="Your name"
               name="name"
-              className="px-3 py-3 placeholder-gray-400 font-inter relative   rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+              className="px-3 py-3 placeholder-gray-400 font-poppins relative   rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
               required
             />
           </div>
@@ -53,7 +53,7 @@ const ContactForm = () => {
               type="email"
               placeholder="Email Address"
               name="email"
-              className="px-3 py-3 placeholder-gray-400 relative font-inter  rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+              className="px-3 py-3 placeholder-gray-400 relative font-poppins  rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
               required
             />
           </div>
@@ -61,7 +61,7 @@ const ContactForm = () => {
             <textarea
               placeholder="Your message"
               name="message"
-              className="px-3 py-3 placeholder-gray-400 relative  font-inter rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+              className="px-3 py-3 placeholder-gray-400 relative  font-poppins rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
               required
             />
           </div>

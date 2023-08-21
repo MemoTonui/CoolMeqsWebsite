@@ -1,6 +1,10 @@
+import { useEffect } from "react";
 import { services1, services2 } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const ServiceCard = ({ id, title, content, index }) => (
   <div
     className={`flex flex-row rounded-[20px] ${
@@ -21,12 +25,20 @@ const ServiceCard = ({ id, title, content, index }) => (
   </div>
 );
 const Services = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1800 });
+  }, []);
   return (
     <div>
       <section id="features" className={layout.section}>
         <div className={`${layout.sectionImg} flex-col`}>
           {services1.map((service, index) => (
-            <ServiceCard key={service.id} {...service} index={index} />
+            <ServiceCard
+              key={service.id}
+              {...service}
+              index={index}
+              data-Aos="fade-right"
+            />
           ))}
         </div>
       </section>

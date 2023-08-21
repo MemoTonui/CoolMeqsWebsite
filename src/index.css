@@ -13,8 +13,6 @@
   scroll-behavior: smooth;
 }
 .about {
-  background: rgb(226 232 240);
-  background-image: url(./assets/floating-cogs.svg);
 }
 .pulsating-card:hover {
   transform: scale(1.05);
