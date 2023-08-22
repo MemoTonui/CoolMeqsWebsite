@@ -20,7 +20,7 @@ const Information = () => (
         <p className={`${styles.paragraph} text-left `}>
           <div className="flex flex-col sm:flex-row">
             <p
-              className={`text-left font-poppins leading-loose flex-1  px-6 mt-12 flex-wrap text-primary-darker ${styles.paragraph}`}
+              className={`text-left font-poppins leading-loose flex-1  px-1 mt-12 flex-wrap text-primary-darker ${styles.paragraph}`}
             >
               Coolmeqs Services and Supplies Ltd,is one of the most sought after
               Air Treatment company in Kenya, It started its journey as an Hvac

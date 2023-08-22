@@ -48,10 +48,10 @@ const Hero = () => {
         </div>
 
         <div
-          className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
+          className={`flex-1 flex ${styles.flexCenter} md:my-0 my-2 relative`}
         >
           <div id="gallery" class="relative w-full" data-carousel="slide">
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+            <div class="relative h-64 overflow-hidden rounded-lg md:h-96">
               <div
                 class="hidden duration-700 ease-in-out"
                 data-carousel-item="active"

@@ -12,7 +12,7 @@ const AboutUs = () => (
       <hr className="mx-auto" />
       <div className="flex flex-col sm:flex-row">
         <p
-          className={`text-left font-poppins  flex-1  px-2 mt-5 flex-wrap text-slate-700 ${styles.paragraph}`}
+          className={`text-left font-poppins  flex-1  mt-5 flex-wrap text-slate-700 ${styles.paragraph}`}
         >
           Coolmeqs Services and Supplies Ltd,is one of the most sought after Air
           Treatment company in Kenya, It started its journey as an Hvac service
