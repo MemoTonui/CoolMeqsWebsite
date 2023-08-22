@@ -19,9 +19,10 @@ const CardDeal = () => (
         Ventilation and Air Conditioning Services
       </h2>
       <p className={`${styles.paragraph} max-w-[510px] mt-5`}>
-        There are many variations of passages of Lorem Ipsum available, but the
-        majority have suffered alteration in some form, by injected humour, or
-        randomised words which don't look even slightly believable.
+        Experience the ultimate in Heat, Ventilation, and Air Conditioning
+        services with Coolmeqs Services and Supplies Ltd. We're your trusted
+        partner for unmatched comfort and quality. From homes to businesses,
+        we've got your climate covered.
       </p>
 
       <Button styles="mt-8" />

@@ -42,12 +42,7 @@ const Services = () => {
           ))}
         </div>
       </section>
-      <div className="flex justify-between mx-10">
-        <div></div>
-        <div className="flex-col-reverse">
-          <Button />
-        </div>
-      </div>
+     
     </div>
   );
 };

@@ -46,13 +46,13 @@ export const services1 = [
   {
     id: "01",
     icon: wind,
-    title: "Heat , Ventilation and Air Conditioning(HVAC)",
+    title: "HVAC",
     content: "HVAC design, installations and after sales service",
   },
   {
     id: "02",
     icon: shield,
-    title: "Security Cameras",
+    title: "Cameras",
     content: "Security cameras installations and automation",
   },
   {
@@ -145,25 +145,25 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sit amet mattis tellus. Suspendisse et lorem ut orci gravida venenatis. Suspendisse ultrices lacus in tortorporta consequat. Integer vel metus dignissim sem sodales fringilla non nec dolor",
-    name: "Jane Doe",
-    title: "Founder & Leader",
+      "Coolmeqs Services and Supplies Ltd has been a game-changer for our office. Their HVAC solutions not only ensure a comfortable work environment but also contribute to increased employee productivity. We're thrilled with the transformation!",
+    name: "Sarah K",
+    title: "Business Owner",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Nam imperdiet magna id nisi scelerisque, ac lobortis ex egestas. Etiam vel est eget neque viverra porttitor quis vel ante. Maecenas aliquam, turpis sed vulputate cursus, sapien elit rutrum turpis, vehicula egestas turpis est sit amet turpis. ",
-    name: "John Doe",
-    title: "Founder & Leader",
+      "I can't express how grateful I am for Coolmeqs' exceptional service. From the initial consultation to the installation of my new air conditioning system, everything was smooth and professional. My home has never felt so cozy, and my family is delighted.",
+    name: "Mark T.",
+    title: "Home Owner",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "Morbi ullamcorper eleifend est, ac eleifend elit tincidunt eget. Proin id justo porttitor orci rhoncus vestibulum. Aliquam ut sem posuere, fringilla velit eu, suscipit elit. Integer semper dui ante, at convallis justo ullamcorper quis. Etiam quis velit sagittis, ultricies tellus ac, elementum ex. ",
-    name: "Ken Doe",
-    title: "Founder & Leader",
+      "When it comes to air treatment, Coolmeqs is the name I trust without hesitation. Their team's deep expertise and unwavering dedication to customer satisfaction are truly impressive. They worked closely with me to address my specific needs, and the results exceeded my expectations.",
+    name: "David P",
+    title: "Satisfied Customer",
     img: people03,
   },
 ];

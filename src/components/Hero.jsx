@@ -9,36 +9,41 @@ import {
   image5,
 } from "../assets";
 import Button from "./Button";
+import OutlinedButton from "./OutlinedButton";
 
 const Hero = () => {
   return (
     <section id="home" className="heroBg">
       <div className={`flex md:flex-row flex-col   ${styles.paddingY}`}>
         <div
-          className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
+          className={`flex-1 ${styles.flexStart} flex-col md:items-stretch items-center  xl:px-0 sm:px-16  px-6`}
         >
-          <div className="flex flex-row items-center py-[3px] px-3 bg-discount-gradient rounded-[10px]">
-            <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
-            <p className={`${styles.paragraph} ml-2 text-secondary`}>
-              <span className="text-slate-900">Your</span> Doorstep{" "}
-              <span className="text-slate-900">Service</span> Partner
+          <div className="flex flex-row  py-[3px] px-3  rounded-[30px]">
+            <img src={discount} alt="discount" className="w-[30px] h-[30px]" />
+            <p
+              className={`${styles.paragraph} ml-2 text-sm sm:text-left text-center text-secondary`}
+            >
+              <span className="text-slate-900 ">Your</span> Doorstep{" "}
+              <span className="text-slate-900 ">Service</span> Partner
             </p>
           </div>
-          <div className="flex flex-row justify-between items-center w-full">
-            <h1 className="flex-1 font-serif font-semibold ss:text-[54px] text-[28px] text-slate-900 ss:leading-[100.8px] leading-[75px]">
+          <div className="flex flex-row justify-between mt-5  w-full">
+            <h1 className="flex-1 font-serif font-semibold ss:text-[64px] text-[30px] md:text-left text-center text-slate-900 ss:leading-[80.8px] leading-[55px]">
               <span className="text-secondary">COOLMEQS SERVICES</span>{" "}
             </h1>
           </div>
-          <h1 className="font-serif font-semibold ss:text-[54px] text-[28px] text-primary-darker ss:leading-[100.8px] leading-[75px] w-full">
+          <h1 className="font-serif font-semibold ss:text-[64px] text-[30px] md:text-left text-center text-primary-darker ss:leading-[80.8px] leading-[55px] w-full">
             AND SUPPLIES LIMITED.
           </h1>
-          <p className={`${styles.paragraph} max-w-[470px] `}>
+          <p
+            className={`${styles.paragraph} max-w-[470px] md:text-left text-center`}
+          >
             <br className="sm:block hidden" />
             Coolmeqs Services and Supplies Limited provides a whole Round MEP
             solutions to the built Environment.
           </p>
-          <div className="pt-8">
-            <Button />
+          <div className="pt-8 ">
+            <OutlinedButton />
           </div>
         </div>
 

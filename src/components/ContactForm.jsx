@@ -22,50 +22,67 @@ const ContactForm = () => {
   return (
     <section id="contact_us" className={` ${styles.paddingY} `}>
       <div
-        className="flex flex-col justify-center
+        className="flex flex-col justify-center py-4 lg:py-8 mx-auto max-w-screen-md
       "
       >
         <div className={`${styles.heading2} mb-3 pt-0`}>
-          <h3 className=" text-slate-900 font-serif">Contact Us</h3>
+          <h3 className=" text-slate-900 font-serif text-center">Contact Us</h3>
         </div>
-        <p className={`${styles.paragraph} max-w-[470px] mt-2`}>
-          Incase of any questions or enquiries, reach out to us using the form
-          below
+        <p className={`${styles.paragraph}  text-center mt-2`}>
+        Ready to transform your air treatment experience? Have questions about our services? Reach out to us today. Coolmeqs Services and Supplies Ltd is here to redefine air treatment in Kenya and beyond.
         </p>
         <form
-          className={` bg-transparent rounded px-8 pt-6 pb-8 mb-4 mt-5`}
+          className={` bg-transparent rounded px-2 pt-6 pb-8 mb-4 mt-5`}
           action={FORM_ENDPOINT}
           onSubmit={handleSubmit}
           method="POST"
           target="_blank"
         >
-          <div className="mb-3 pt-0">
-            <input
-              type="text"
-              placeholder="Your name"
-              name="name"
-              className="px-3 py-3 placeholder-gray-400 font-poppins relative   rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
-              required
-            />
-          </div>
-          <div className="mb-3 pt-0">
+          <div className="my-5">
+            <label
+              for="email"
+              className="block mb-2 text-sm font-poppins font-medium text-gray-900 dark:text-gray-300"
+            >
+              Your email
+            </label>
             <input
               type="email"
-              placeholder="Email Address"
-              name="email"
-              className="px-3 py-3 placeholder-gray-400 relative font-poppins  rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
+              id="email"
+              className="shadow-sm bg-gray-50 font-poppins border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+              placeholder="name@flowbite.com"
               required
             />
           </div>
-          <div className="mb-3 pt-0">
+          <div className="my-5">
+            <label
+              for="subject"
+              className="block mb-2 text-sm font-poppins font-medium text-gray-900 dark:text-gray-300"
+            >
+              Subject
+            </label>
+            <input
+              type="text"
+              id="subject"
+              className="block p-3 font-poppins w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+              placeholder="Let us know how we can help you"
+              required
+            />
+          </div>
+          <div class="sm:col-span-2 my-5">
+            <label
+              for="message"
+              className="block mb-2 text-sm font-poppins font-medium text-gray-900 dark:text-gray-400"
+            >
+              Your message
+            </label>
             <textarea
-              placeholder="Your message"
-              name="message"
-              className="px-3 py-3 placeholder-gray-400 relative  font-poppins rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring w-full"
-              required
-            />
+              id="message"
+              rows="6"
+              className="block p-2.5 w-full font-poppins text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+              placeholder="Enter you message here..."
+            ></textarea>
           </div>
-          <div className="mb-3 pt-0">
+          <div className="mb-3 pt-0 flex items-end">
             <SendMessageButton />
           </div>
         </form>

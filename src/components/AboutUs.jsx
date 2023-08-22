@@ -6,11 +6,13 @@ import Services from "./Services";
 const AboutUs = () => (
   <section id="about_us" className={`${layout.section} about`}>
     <div className={`${layout.sectionInfo} mx-2`}>
-      <h2 className={`${styles.heading2} container mx-auto px-6`}>About Us</h2>
+      <h2 className={`${styles.heading2} text-slate-900 container mx-auto px-2`}>
+        ABOUT US
+      </h2>
       <hr className="mx-auto" />
       <div className="flex flex-col sm:flex-row">
         <p
-          className={`text-left font-poppins  flex-1  px-6 mt-12 flex-wrap text-primary-darker ${styles.paragraph}`}
+          className={`text-left font-poppins  flex-1  px-2 mt-5 flex-wrap text-slate-700 ${styles.paragraph}`}
         >
           Coolmeqs Services and Supplies Ltd,is one of the most sought after Air
           Treatment company in Kenya, It started its journey as an Hvac service

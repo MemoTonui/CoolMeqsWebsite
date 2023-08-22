@@ -16,11 +16,13 @@ const Testimonials = () => (
       </h1>
       <div className="w-full md:mt-0 mt-6">
         <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-          Everything you need to control the temperature, humidity, and purity of the air in an enclosed space.
+          Join these satisfied clients and experience the Coolmeqs difference
+          for yourself. Contact us today for a breath of fresh and comfortable
+          air.
         </p>
       </div>
     </div>
-    <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
+    <div className="grid md:grid-cols-3 sm:justify-start justify-center w-full feedback-container relative z-[1]">
       {feedback.map((card) => (
         <FeedbackCard key={card.id} {...card} />
       ))}
