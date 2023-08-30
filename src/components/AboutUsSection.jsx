@@ -15,7 +15,7 @@ const AboutUsSection = () => (
         <br className="sm:block hidden" /> about us
       </h1>
       <div className="w-full md:mt-0 mt-6">
-        <p className={`${styles.paragraph} text-left `}>
+        <p className={`${styles.paragraph} text-left text-slate-600 `}>
           Everything you need to control the temperature, humidity, and purity
           of the air in an enclosed space.
         </p>

@@ -18,14 +18,20 @@ const Hero = () => {
         <div
           className={`flex-1 ${styles.flexStart} flex-col md:items-stretch items-center  xl:px-0 sm:px-16  px-6`}
         >
-          <div className="flex flex-row  py-[3px] px-3  rounded-[30px]">
-            <img src={discount} alt="discount" className="w-[30px] h-[30px]" />
-            <p
-              className={`${styles.paragraph} ml-2 text-sm sm:text-left text-center text-secondary`}
-            >
-              <span className="text-slate-900 ">Your</span> Doorstep{" "}
-              <span className="text-slate-900 ">Service</span> Partner
-            </p>
+          <div className="flex flex-row  ">
+            <div className="bg-slate-100 flex py-[3px] px-3   rounded-[30px]">
+              <img
+                src={discount}
+                alt="discount"
+                className="w-[30px] h-[30px]"
+              />
+              <p
+                className={`${styles.paragraph} ml-2 text-sm sm:text-left text-center text-secondary`}
+              >
+                <span className="text-slate-900 ">Your</span> Doorstep{" "}
+                <span className="text-slate-900 ">Service</span> Partner
+              </p>
+            </div>
           </div>
           <div className="flex flex-row justify-between mt-5  w-full">
             <h1 className="flex-1 font-serif font-semibold ss:text-[64px] text-[30px] md:text-left text-center text-slate-900 ss:leading-[80.8px] leading-[55px]">
@@ -36,7 +42,7 @@ const Hero = () => {
             AND SUPPLIES LIMITED.
           </h1>
           <p
-            className={`${styles.paragraph} max-w-[470px] md:text-left text-center`}
+            className={`${styles.paragraph} text-slate-600 max-w-[470px] md:text-left text-center`}
           >
             <br className="sm:block hidden" />
             Coolmeqs Services and Supplies Limited provides a whole Round MEP
@@ -51,7 +57,7 @@ const Hero = () => {
           className={`flex-1 flex ${styles.flexCenter} md:my-0 my-2 relative`}
         >
           <div id="gallery" class="relative w-full" data-carousel="slide">
-            <div class="relative h-64 overflow-hidden rounded-lg md:h-96">
+            <div class="relative h-72 overflow-hidden rounded-lg md:h-96">
               <div
                 class="hidden duration-700 ease-in-out"
                 data-carousel-item="active"

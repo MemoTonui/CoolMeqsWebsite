@@ -13,7 +13,9 @@ const ServiceCard = ({ id, title, content, icon, index }) => (
     <h3 className="mb-2 text-xl text-slate-900 font-semibold font-serif dark:text-white">
       {title}
     </h3>
-    <p className="text-slate-600 dark:text-gray-400 font-poppins">{content}</p>
+    <p className="text-slate-600 dark:text-gray-400 font-poppins text-[15px]">
+      {content}
+    </p>
   </div>
 );
 
@@ -27,7 +29,7 @@ const ServicesSection = () => {
             <br className="sm:block hidden" /> Offering You ?
           </h1>
           <div className="w-full md:mt-0 mt-6">
-            <p className={`${styles.paragraph} text-left `}>
+            <p className={`${styles.paragraph} text-slate-600 text-left `}>
               Everything you need to control the temperature, humidity, and
               purity of the air in an enclosed space.
             </p>

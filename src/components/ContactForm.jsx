@@ -28,7 +28,7 @@ const ContactForm = () => {
         <div className={`${styles.heading2} mb-3 pt-0`}>
           <h3 className=" text-slate-900 font-serif text-center">Contact Us</h3>
         </div>
-        <p className={`${styles.paragraph}  text-center mt-2`}>
+        <p className={`${styles.paragraph} text-slate-600  text-center mt-2`}>
         Ready to transform your air treatment experience? Have questions about our services? Reach out to us today. Coolmeqs Services and Supplies Ltd is here to redefine air treatment in Kenya and beyond.
         </p>
         <form

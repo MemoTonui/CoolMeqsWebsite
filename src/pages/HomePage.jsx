@@ -43,18 +43,15 @@ const HomePage = () => {
           <div data-Aos="fade-down">
             <AboutUs />
           </div>
+          
           <div data-Aos="fade-right">
             <CardDeal />
           </div>
-          <div data-Aos="fade-right">
-            <CardComponent />
-          </div>
+
           <div data-Aos="fade-up">
             <Testimonials />
           </div>
-          <div data-Aos="fade-bottom">
-            <Clients />
-          </div>
+
           <div data-Aos="fade-right">
             <CTA />
           </div>

@@ -15,7 +15,7 @@ const Testimonials = () => (
         <br className="sm:block hidden" /> saying about us
       </h1>
       <div className="w-full md:mt-0 mt-6">
-        <p className={`${styles.paragraph} text-left max-w-[450px]`}>
+        <p className={`${styles.paragraph} text-left max-w-[450px] text-slate-600`}>
           Join these satisfied clients and experience the Coolmeqs difference
           for yourself. Contact us today for a breath of fresh and comfortable
           air.

@@ -4,32 +4,33 @@ import Button from "./Button";
 import Services from "./Services";
 
 const AboutUs = () => (
-  <section id="about_us" className={`${layout.section} about`}>
-    <div className={`${layout.sectionInfo} mx-2`}>
-      <h2 className={`${styles.heading2} text-slate-900 container mx-auto px-2`}>
-        ABOUT US
+  <section className="my-14">
+    <div className={`${layout.sectionInfo} flex items-center mx-2 `}>
+      <h2
+        className={`${styles.heading2} text-slate-900 text-center container mx-auto px-2`}
+      >
+        About Us
       </h2>
       <hr className="mx-auto" />
       <div className="flex flex-col sm:flex-row">
         <p
-          className={`text-left font-poppins  flex-1  mt-5 flex-wrap text-slate-700 ${styles.paragraph}`}
+          className={`text-left font-poppins md:px-24  flex-1  mt-5 flex-wrap text-slate-600 ${styles.paragraph}`}
         >
-          Coolmeqs Services and Supplies Ltd,is one of the most sought after Air
-          Treatment company in Kenya, It started its journey as an Hvac service
-          provider to small and medium Enterprises in Bomet County and soon
-          after diversified its activities with the supply and distribution of
-          various Mechanical and Electrical goods.Throughout 2021 and beginning
-          of 2022, Coolmeqs Services and supplies Limited with further
-          diversification actively participated in the servicing of HVAC
-          installations in private and public institutions majorly in Nairobi
-          and a few of them outside the capital city. Currently, Coolmeqs
-          Services and supplies Limited prides itself on being a one-stop-shop
-          that can meet all the needs of our residential, commercial and
-          industrial clients....
+          Coolmeqs Services and Supplies Ltd is a highly regarded Air Treatment
+          company in Kenya. It initially started by providing HVAC services to
+          small and medium businesses in Bomet County. Later, it expanded its
+          operations to include supplying Mechanical and Electrical goods. In
+          2021 and early 2022, the company further diversified by servicing HVAC
+          installations in various institutions, mainly in Nairobi. Presently,
+          Coolmeqs Services and Supplies Ltd is known as a comprehensive
+          solution for residential, commercial, and industrial clients. They
+          specialize in air conditioning, heating, plumbing, and fresh air
+          system services, maintenance, and installation, maintaining high
+          standards of quality and efficiency.
         </p>
       </div>
     </div>
-    <div className="flex flex-col flex-1">
+    <div className="">
       <Services />
     </div>
   </section>

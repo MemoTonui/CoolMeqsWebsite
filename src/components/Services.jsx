@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 const ServiceCard = ({ id, title, content, index }) => (
   <div
-    className={`flex flex-row rounded-[20px] ${
+    className={`flex flex-col md:flex-row rounded-[20px] ${
       index !== services1.length - 1 ? "mb-1" : "mb-0"
     } feature-card`}
   >
@@ -31,7 +31,7 @@ const Services = () => {
   return (
     <div>
       <section id="features" className={layout.section}>
-        <div className={`${layout.sectionImg} flex-col`}>
+        <div className={`${layout.sectionImg} md:flex-row flex-col `}>
           {services1.map((service, index) => (
             <ServiceCard
               key={service.id}
@@ -42,7 +42,6 @@ const Services = () => {
           ))}
         </div>
       </section>
-     
     </div>
   );
 };

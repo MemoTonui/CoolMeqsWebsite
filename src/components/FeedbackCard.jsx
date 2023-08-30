@@ -8,7 +8,7 @@ const FeedbackCard = ({ content, name, title, img }) => (
       alt="double_quotes"
       className="w-[42px] h-[27px] object-contain"
     />
-    <p className="font-poppins font-normal text-[14px] leading-[24px] text-slate-900 my-10">
+    <p className="font-poppins font-normal text-[14px] leading-[24px] text-slate-600 my-10">
       {content}
     </p>
     <div className="flex flex-row">
@@ -17,7 +17,7 @@ const FeedbackCard = ({ content, name, title, img }) => (
         <h4 className="font-poppins font-semibold text-[18px] leading-[32px] text-slate-900">
           {name}
         </h4>
-        <p className="font-poppins font-normal text-[16px] leading-[24px] text-slate-700 my-1">
+        <p className="font-poppins font-normal text-[16px] leading-[24px] text-slate-600 my-1">
           {title}
         </p>
       </div>

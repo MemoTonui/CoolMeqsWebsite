@@ -18,7 +18,7 @@ const CardDeal = () => (
         Get the Best Heat, <br className="sm:block hidden" />
         Ventilation and Air Conditioning Services
       </h2>
-      <p className={`${styles.paragraph} max-w-[510px] mt-5`}>
+      <p className={`${styles.paragraph} max-w-[510px] mt-5 text-slate-600`}>
         Experience the ultimate in Heat, Ventilation, and Air Conditioning
         services with Coolmeqs Services and Supplies Ltd. We're your trusted
         partner for unmatched comfort and quality. From homes to businesses,
