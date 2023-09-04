@@ -21,6 +21,11 @@ import {
   group5,
   group6,
   robot,
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
 } from "../assets";
 
 export const navLinks = [
@@ -40,6 +45,14 @@ export const navLinks = [
     id: "contact_us",
     title: "Contact Us",
   },
+];
+
+export const carouselLinks = [
+  { id: "01", url: image1 },
+  { id: "02", url: image2 },
+  { id: "03", url: image3 },
+  { id: "04", url: image4 },
+  { id: "05", url: image5 },
 ];
 
 export const services1 = [
@@ -87,29 +100,24 @@ export const services2 = [
     id: "07",
     icon: send,
     title: "Consulting Services",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+    content: "We offer consulting services for any of the above.",
   },
 ];
 
 export const services = [
   {
-    id: "01",
-    icon: wind,
-    title: "Heat , Ventilation and Air Conditioning(HVAC)",
-    content: "HVAC design, installations and after sales service",
-  },
-  {
     id: "02",
     icon: shield,
     title: "Security Cameras",
-    content: "Security cameras installations and automation",
+    content:
+      "Coolmeqs offers advanced security camera solutions for enhanced surveillance and safety.",
   },
   {
     id: "03",
     icon: aperture,
     title: "Laundromat",
-    content: "Laundromat design installation and maintenance",
+    content:
+      "Coolmeqs provides laundromat services for convenient and efficient laundry solutions.",
   },
 
   {
@@ -123,21 +131,21 @@ export const services = [
     icon: zap,
     title: "Electrical Supplies and installation",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Coolmeqs provides top-notch electrical supplies and installations for various client types in Kenya.",
   },
   {
     id: "06",
     icon: droplet,
     title: "Plumbing Services",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Coolmeqs offers comprehensive plumbing services for residential, commercial, and industrial clients in Kenya.",
   },
   {
     id: "07",
     icon: send,
     title: "Consulting Services",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Coolmeqs offers professional consulting services to assist businesses in making informed decisions and achieving their goals.",
   },
 ];
 

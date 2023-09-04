@@ -4,9 +4,11 @@ import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => (
   <section
-    className={`${styles.flexCenter} ${styles.paddingY} flex-col bg-black-gradient-2  ${styles.paddingX} ${styles.flexStart}`}
+    className={`${styles.flexCenter} ${styles.paddingY} flex-col bg-black-gradient-2   ${styles.paddingX} ${styles.flexStart}`}
   >
-    <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
+    <div
+      className={`${styles.flexStart} px-5 md:flex-row flex-col mb-8 w-full`}
+    >
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <div className="flex flex-row justify-between items-center w-full">
           <h4 className="flex-1 font-serif font-semibold ss:text-[35px] text-[32px] text-white ss:leading-[100.8px] leading-[75px]">
@@ -49,8 +51,8 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#131731]">
-      <p className="font-serif font-normal text-center text-[18px] leading-[27px] text-white">
+    <div className="w-full flex justify-between items-center md:flex-row px-5 flex-col pt-6 border-t-[1px] border-t-[#131731]">
+      <p className="font-serif font-normal text-center text-[18px] leading-[27px]  text-white">
         Copyright Ⓒ 2022 CoolMeqs. All Rights Reserved.
       </p>
 

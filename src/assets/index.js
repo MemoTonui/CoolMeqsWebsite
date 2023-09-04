@@ -42,6 +42,7 @@ import image2 from "./image2.jpeg";
 import image3 from "./image3.jpeg";
 import image4 from "./image4.jpeg";
 import image5 from "./image5.jpeg";
+import bgImage from "./BgImage.png";
 
 export {
   airbnb,
@@ -88,4 +89,5 @@ export {
   image3,
   image4,
   image5,
+  bgImage,
 };

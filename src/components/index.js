@@ -10,6 +10,8 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import ContactForm from "./ContactForm";
 import AboutUs from "./AboutUs";
+import RequestQuote from "./RequestQuote";
+
 
 export {
   Navbar,
@@ -24,4 +26,5 @@ export {
   Hero,
   ContactForm,
   AboutUs,
+  RequestQuote
 };

@@ -5,7 +5,7 @@ import styles from "../style";
 
 const FORM_ENDPOINT = "";
 
-const ContactForm = () => {
+const RequestQuote = () => {
   const [submitted, setSubmitted] = useState(false);
   const handleSubmit = () => {
     setTimeout(() => {
@@ -20,21 +20,17 @@ const ContactForm = () => {
   }
 
   return (
-    <section id="contact_us" className={` ${styles.paddingY} `}>
+    <section id="contact_us" className={` rounded-sm bg-slate-100 p-2`}>
       <div
-        className="flex flex-col justify-center py-4 lg:py-8 mx-auto max-w-screen-md
+        className="flex flex-col justify-center py-4 lg:py-2 mx-auto max-w-screen-md
       "
       >
-        <div className={`${styles.heading2} mb-3 pt-0`}>
-          <h3 className=" text-slate-900 font-serif text-center">
+        <div className={`${styles.heading2} pt-0 mb-3`}>
+          <h3 className=" text-slate-900 font-serif  text-xl">
             Request Free Quote
           </h3>
         </div>
-        <p className={`${styles.paragraph} text-slate-600  text-center mt-2`}>
-          Ready to transform your air treatment experience? Have questions about
-          our services? Reach out to us today. Coolmeqs Services and Supplies
-          Ltd is here to redefine air treatment in Kenya and beyond.
-        </p>
+
         <form
           className={` bg-transparent rounded px-2 pt-2 pb-3 mb-4 mt-1`}
           action={FORM_ENDPOINT}
@@ -42,7 +38,7 @@ const ContactForm = () => {
           method="POST"
           target="_blank"
         >
-          <div className="grid grid-cols-2 gap-4 mt-5">
+          <div className="flex justify-between my-2 gap-2">
             <div className="">
               <label
                 for="name"
@@ -112,4 +108,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default RequestQuote;

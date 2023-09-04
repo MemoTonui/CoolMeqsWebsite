@@ -18,6 +18,7 @@ import Services from "../components/Services";
 import styles from "../style";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import ServicesSection from "../components/ServicesSection";
 
 const HomePage = () => {
   useEffect(() => {
@@ -40,22 +41,22 @@ const HomePage = () => {
           <div data-Aos="fade-right">
             <Stats />
           </div>
+
           <div data-Aos="fade-down">
-            <AboutUs />
-          </div>
-          
-          <div data-Aos="fade-right">
             <CardDeal />
           </div>
 
           <div data-Aos="fade-up">
             <Testimonials />
           </div>
-
           <div data-Aos="fade-right">
             <CTA />
           </div>
+
           <div data-Aos="fade-left">
+            <ServicesSection />
+          </div>
+          <div data-Aos="fade-down">
             <ContactForm />
           </div>
         </div>

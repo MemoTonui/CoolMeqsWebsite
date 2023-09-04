@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <nav className="w-full flex py-6 justify-between  navbar">
+        <nav className="w-full flex py-4 justify-between  navbar">
           <img src={logo} alt="cool meqs" className="w-[124px] h-[64px]" />
 
           <ul className="list-none sm:flex hidden justify-end items-center flex-1">
@@ -28,7 +28,7 @@ const Navbar = () => {
             ))}
             <Button styles="ml-24" />
           </ul>
-          <div className="sm:hidden flex flex-1 justify-end items-center">
+          <div className="sm:hidden flex flex-1 justify-end relative items-center">
             <img
               src={toggle ? close : menu}
               alt="menu"
