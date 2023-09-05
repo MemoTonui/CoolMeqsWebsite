@@ -30,7 +30,7 @@ import {
 
 export const navLinks = [
   {
-    id: "/",
+    id: "/home",
     title: "Home",
   },
   {
@@ -38,12 +38,12 @@ export const navLinks = [
     title: "About Us",
   },
   {
-    id: "/products",
-    title: "Our Products",
-  },
+    id: "/home#services",
+    title: "Services",
+  }, 
   {
-    id: "contact_us",
-    title: "Contact Us",
+    id: "/home#clients",
+    title: "Testimonials",
   },
 ];
 

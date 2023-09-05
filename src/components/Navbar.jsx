@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <nav className="w-full flex py-4 justify-between  navbar">
+        <nav className="w-full flex py-4 justify-between relative navbar">
           <img src={logo} alt="cool meqs" className="w-[124px] h-[64px]" />
 
           <ul className="list-none sm:flex hidden justify-end items-center flex-1">
@@ -28,19 +28,19 @@ const Navbar = () => {
             ))}
             <Button styles="ml-24" />
           </ul>
-          <div className="sm:hidden flex flex-1 justify-end relative items-center">
+          <div className="sm:hidden flex flex-1 justify-end items-center">
             <img
               src={toggle ? close : menu}
               alt="menu"
-              className="w-[28px] h-[28px] object-contain "
+              className="w-[24px] h-[24px]"
               onClick={() => setToggle((prev) => !prev)}
             />
             <div
               className={`${
-                toggle ? "flex" : "hidden"
-              } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+                toggle ? "block" : "hidden"
+              } p-6 bg-black-gradient absolute top-20 right-0 mx-4 min-w-[150px] rounded-sm sidebar`}
             >
-              <ul className="list-none flex flex-col justify-end items-center flex-1">
+              <ul className="list-none flex flex-col   justify-end items-center flex-1">
                 {navLinks.map((nav, index) => (
                   <li
                     key={nav.id}

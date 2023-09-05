@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  ContactForm,
-  CTA,
-  Footer,
-  Navbar,
-  Stats,
-} from "../components";
+import { ContactForm, CTA, Footer, Navbar, Stats } from "../components";
 import AboutUsSection from "../components/AboutUsSection";
 import Information from "../components/Information";
 import ServicesSection from "../components/ServicesSection";
@@ -31,7 +25,6 @@ const AboutPage = () => {
               <Stats />
             </div>
             <ServicesSection />
-            <Team />
             <CTA />
             <ContactForm />
           </div>

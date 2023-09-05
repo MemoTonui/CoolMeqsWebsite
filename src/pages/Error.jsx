@@ -9,7 +9,7 @@ const Error = () => {
         <div class="bg-secondary px-2 text-sm rounded rotate-12 absolute">
           Page Not Found
         </div>
-        <Link to="/">
+        <Link to="/home">
           <button class="mt-5">
             <a class="relative inline-block text-sm font-medium text-secondary group active:text-orange-500 focus:outline-none focus:ring">
               <span class="absolute inset-0 transition-transform translate-x-0.5 translate-y-0.5 bg-secondary group-hover:translate-y-0 group-hover:translate-x-0"></span>

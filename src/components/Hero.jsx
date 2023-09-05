@@ -11,11 +11,13 @@ import {
 import Button from "./Button";
 import OutlinedButton from "./OutlinedButton";
 import RequestQuote from "./RequestQuote";
+import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
     <section id="home" className="heroBg">
-      <div className="w-screen h-auto py-10 justify-center text-white bg-[url('/src/assets/BgImage.png')] bg-cover bg-center bg-opacity-0">
+      <Navbar />
+      <div className="w-screen h-auto py-10 justify-center text-white bg-[url('/src/assets/BgImage.png')] bg-cover">
         <div
           className={`flex md:flex-row flex-col justify-center  ${styles.paddingY}`}
         >
