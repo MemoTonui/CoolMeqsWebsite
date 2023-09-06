@@ -4,6 +4,7 @@ import Button from "./Button";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 import styles from "../style.js";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -21,9 +22,9 @@ const Navbar = () => {
                   index === navLinks.length - 1 ? "mr-1" : "mr-10"
                 } text-slate-900`}
               >
-                <Link to={nav.id}>
+                <HashLink to={nav.id}>
                   <a>{nav.title}</a>
-                </Link>
+                </HashLink>
               </li>
             ))}
             <Button styles="ml-24" />
@@ -48,9 +49,9 @@ const Navbar = () => {
                       index === navLinks.length - 1 ? "mr-1" : "mb-4"
                     } text-white`}
                   >
-                    <Link to={nav.id}>
+                    <HashLink to={nav.id}>
                       <a>{nav.title}</a>
-                    </Link>
+                    </HashLink>
                   </li>
                 ))}
               </ul>

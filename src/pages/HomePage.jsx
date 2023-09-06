@@ -48,7 +48,7 @@ const HomePage = () => {
             <CTA />
           </div>
 
-          <div data-Aos="fade-left">
+          <div data-Aos="fade-up">
             <ServicesSection />
           </div>
           <div data-Aos="fade-down">

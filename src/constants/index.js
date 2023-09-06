@@ -38,11 +38,11 @@ export const navLinks = [
     title: "About Us",
   },
   {
-    id: "/home#services",
+    id: "/home/#services",
     title: "Services",
-  }, 
+  },
   {
-    id: "/home#clients",
+    id: "/home/#clients",
     title: "Testimonials",
   },
 ];

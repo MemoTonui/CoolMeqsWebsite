@@ -23,7 +23,7 @@ const ServicesSection = () => {
   return (
     <section className="bg-white dark:bg-gray-900" id="services">
       <div className="py-3 px-4 mx-auto max-w-screen-xl sm:py-8 lg:px-6">
-        <div className="w-full flex justify-between gap-10 items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
+        <div className="w-full items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
           <h1 className={styles.heading2}>
             What Other Services Are We
             <br className="sm:block hidden" /> Offering You ?
