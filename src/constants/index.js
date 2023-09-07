@@ -26,6 +26,7 @@ import {
   image3,
   image4,
   image5,
+  person4,
 } from "../assets";
 
 export const navLinks = [
@@ -156,7 +157,7 @@ export const feedback = [
       "Coolmeqs Services and Supplies Ltd has been a game-changer for our office. Their HVAC solutions not only ensure a comfortable work environment but also contribute to increased employee productivity. We're thrilled with the transformation!",
     name: "Sarah K",
     title: "Business Owner",
-    img: "/src/assets/person4.png",
+    img: person4,
   },
   {
     id: "feedback-2",
@@ -164,7 +165,7 @@ export const feedback = [
       "I can't express how grateful I am for Coolmeqs' exceptional service. From the initial consultation to the installation of my new air conditioning system, everything was smooth and professional. My home has never felt so cozy, and my family is delighted.",
     name: "Mark T.",
     title: "Home Owner",
-    img: "/src/assets/person4.png",
+    img: person4,
   },
   {
     id: "feedback-3",
@@ -172,7 +173,7 @@ export const feedback = [
       "When it comes to air treatment, Coolmeqs is the name I trust without hesitation. Their team's deep expertise and unwavering dedication to customer satisfaction are truly impressive. They worked closely with me to address my specific needs, and the results exceeded my expectations.",
     name: "David P",
     title: "Satisfied Customer",
-    img: "/src/assets/person4.png",
+    img: person4,
   },
 ];
 
