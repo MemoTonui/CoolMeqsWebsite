@@ -23,6 +23,8 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import person4 from "./person4.png";
+
 import group from "./group.png";
 import group2 from "./group2.png";
 import group4 from "./group4.png";
@@ -90,4 +92,5 @@ export {
   image4,
   image5,
   bgImage,
+  person4
 };
