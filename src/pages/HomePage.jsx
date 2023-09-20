@@ -19,6 +19,7 @@ import styles from "../style";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import ServicesSection from "../components/ServicesSection";
+import { Helmet } from "react-helmet";
 
 const HomePage = () => {
   useEffect(() => {
@@ -26,6 +27,44 @@ const HomePage = () => {
   }, []);
   return (
     <div className="w-full overflow-hidden">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>
+          Coolmeqs - Heating, Ventilation & Air Conditioning (HVAC) Services
+        </title>
+        <link rel="canonical" href="https://coolmeqsltd.co.ke/" />
+        <meta
+          name="description"
+          content="Coolmeqs offers top-quality HVAC services, including heating, ventilation, and air conditioning solutions. Contact us for expert HVAC installation, repair, and maintenance."
+        />
+        <script type="application/ld+json">
+          {`
+{
+  "@context": "http://schema.org",
+  "@type": "HVACBusiness",
+  "name": "Coolmeqs",
+  "description": "Coolmeqs Ltd offers comprehensive HVAC (Heating, Ventilation, and Air Conditioning) services in Kenya, providing expert solutions for heating and cooling needs.",
+  "url": "https://www.coolmeqsltd.co.ke/",
+  "logo": "https://www.coolmeqsltd.co.ke/assets/coolmeqs.svg",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Nairobi",
+    "addressRegion": "Nairobi County",
+    "postalCode": "00100",
+    "addressCountry": "Kenya"
+  },
+  "telephone": "+254708862487",
+  "openingHours": "Mo-Fr 08:00-17:00",
+ 
+  "areaServed": {
+    "@type": "AdministrativeArea",
+    "name": "Nairobi County, Kenya"
+  },
+
+}
+    `}
+        </script>
+      </Helmet>
       <div className={` ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`} data-Aos="fade-top">
           <Hero />

@@ -5,10 +5,21 @@ import Information from "../components/Information";
 import ServicesSection from "../components/ServicesSection";
 import { Team } from "../components/Team";
 import styles from "../style";
+import { Helmet } from "react-helmet";
 
 const AboutPage = () => {
   return (
     <div className="w-full overflow-hidden">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>About Coolmeqs HVAC Services</title>
+
+        <link rel="canonical" href="https://coolmeqsltd.co.ke/about" />
+        <meta
+          name="description"
+          content="Learn about Coolmeqs HVAC Services, your trusted provider of heating, ventilation, and air conditioning solutions in Your City. Discover our commitment to excellence and customer satisfaction."
+        />
+      </Helmet>
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
