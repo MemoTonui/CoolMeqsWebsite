@@ -35,14 +35,14 @@ const HomePage = () => {
         <link rel="canonical" href="https://coolmeqsltd.co.ke/" />
         <meta
           name="description"
-          content="Coolmeqs offers top-quality HVAC services, including heating, ventilation, and air conditioning solutions. Contact us for expert HVAC installation, repair, and maintenance."
+          content="Experience Coolmeqs, your premier HVAC (Heating, Ventilation, and Air Conditioning) service provider in Kenya. We specialize in HVAC installations, maintenance, and repairs for residential, commercial, and industrial clients. Trust us for top-quality HVAC solutions and competitive pricing."
         />
         <script type="application/ld+json">
-          {`
-{
+  
+{JSON.stringify({
   "@context": "http://schema.org",
-  "@type": "HVACBusiness",
-  "name": "Coolmeqs",
+  "@type": "HVAC Business",
+  "name": "Coolmeqs Services and Supplies Limited",
   "description": "Coolmeqs Ltd offers comprehensive HVAC (Heating, Ventilation, and Air Conditioning) services in Kenya, providing expert solutions for heating and cooling needs.",
   "url": "https://www.coolmeqsltd.co.ke/",
   "logo": "https://www.coolmeqsltd.co.ke/assets/coolmeqs.svg",
@@ -59,10 +59,9 @@ const HomePage = () => {
   "areaServed": {
     "@type": "AdministrativeArea",
     "name": "Nairobi County, Kenya"
-  },
-
+  }})
 }
-    `}
+   
         </script>
       </Helmet>
       <div className={` ${styles.flexStart}`}>
