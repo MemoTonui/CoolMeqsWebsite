@@ -33,21 +33,21 @@ const CardDeal = () => (
           <div class="flex w-1/2  flex-wrap">
             <div class="w-1/2 p-1 md:p-2">
               <img
-                alt="gallery"
+                alt="HVAC Image"
                 class="block h-full w-full rounded-lg object-cover object-center"
                 src={image5}
               />
             </div>
             <div class="w-1/2 p-1 md:p-2">
               <img
-                alt="gallery"
+                alt="HVAC Image"
                 class="block h-full w-full rounded-lg object-cover object-center"
                 src={image1}
               />
             </div>
             <div class="w-full p-1 md:p-2">
               <img
-                alt="gallery"
+                alt="Ventilation"
                 class="block h-3/4 w-full rounded-lg object-cover object-center"
                 src={image3}
               />
@@ -56,7 +56,7 @@ const CardDeal = () => (
           <div class="flex w-1/2 h-1/2 flex-wrap">
             <div class="w-full p-1 md:p-2">
               <img
-                alt="gallery"
+                alt="Heating"
                 class="block h-full w-full rounded-lg object-cover object-center"
                 src={image4}
               />

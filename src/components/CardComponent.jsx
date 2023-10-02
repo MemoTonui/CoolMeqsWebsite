@@ -22,7 +22,7 @@ export default function CardComponent() {
             <img
               className="object-cover w-full h-48"
               src={items.img}
-              alt="image"
+              alt="HVAC"
             />
             <div className="p-4">
               <div className="flex justify-between">
